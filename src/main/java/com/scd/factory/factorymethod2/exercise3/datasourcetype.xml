@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<config>
+    <type>com.scd.factory.factorymethod2.exercise3.TxtDataSourceFactory</type>
+</config>
