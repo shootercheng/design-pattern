@@ -41,7 +41,7 @@ public class XmlUtil {
     }
 
     public static InputStream getResourceAsStream(String resource){
-       return XmlUtil.class.getClassLoader().getResourceAsStream("builder/actorbuildertype.xml");
+       return XmlUtil.class.getClassLoader().getResourceAsStream(resource);
     }
 
     public static String getClassType(String resource){
@@ -71,10 +71,5 @@ public class XmlUtil {
             }
         }
         return type;
-    }
-
-    public static void main(String[] args){
-        String xmlPath = "src\\main\\java\\com\\scd\\factory\\simplefactory\\fac\\chartype.xml";
-        System.out.println(getClassType(xmlPath));
     }
 }
